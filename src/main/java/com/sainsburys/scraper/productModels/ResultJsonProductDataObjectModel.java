@@ -18,7 +18,7 @@ public class ResultJsonProductDataObjectModel
 	@JsonProperty(modelTitleProperty)
 	private String title;
 	
-	@JsonInclude(value = JsonInclude.Include.CUSTOM, valueFilter = excludeKcalFieldWhenUnavailable.class)
+	@JsonInclude(value = JsonInclude.Include.CUSTOM, valueFilter = ExcludeKcalFieldWhenUnavailable.class)
 	@JsonProperty(modelKcalProperty)
 	private int kcalPerHundredGrams;
 	

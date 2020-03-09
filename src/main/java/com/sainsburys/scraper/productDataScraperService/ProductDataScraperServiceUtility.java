@@ -64,6 +64,11 @@ public class ProductDataScraperServiceUtility
 
 	private static int formatKcalToInt(Elements productKcalPer100g) {
 		String trimKcal = productKcalPer100g.get(0).text().replace("kcal", "");
+
+		if(trimKcal.contains(".")) {
+			return Math.round(Float.parseFloat(trimKcal));
+		}
+
 		return Integer.parseInt(trimKcal);
 	}
 
