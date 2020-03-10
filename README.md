@@ -13,6 +13,3 @@ March 2020
 
 - Once this is working project can be run. Application uses the following default link: 
 https://jsainsburyplc.github.io/serverside-test/site/www.sainsburys.co.uk/webapp/wcs/stores/servlet/gb/groceries/berries-cherries-currants6039.html
-
-NOTES:
-- No tests included at this point.
